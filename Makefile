@@ -43,7 +43,7 @@ endif
 GLEW_PREFIX ?= /usr
 GLEW_DEST ?= /usr
 BINDIR    ?= $(GLEW_DEST)/bin
-LIBDIR    ?= $(GLEW_DEST)/lib
+LIBDIR    = $(GLEW_DEST)/lib/x86_64-linux-gnu
 INCDIR    ?= $(GLEW_DEST)/include/GL
 PKGDIR    ?= $(GLEW_DEST)/lib/pkgconfig
 
